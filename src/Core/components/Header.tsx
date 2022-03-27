@@ -1,6 +1,7 @@
 import {FC, useContext} from "react";
 import Usercard from "./Usercard";
 import {newContext} from "../Core";
+import Media from "react-media";
 
 const Header: FC = () => {
     const {userName} = useContext(newContext)
@@ -14,7 +15,13 @@ const Header: FC = () => {
                         <img src="/images/header/logo.svg" alt=""/>
                     </div>
                     <div className="Header__btn">
-                        <button>Личный кабинет</button>
+                        <a href="/"><button style={{
+
+                        }}>
+                            <Media queries={{small:"(max-width: 790px)" }} >
+                                {matches => matches.small?< img src = "/images/Profile.svg" alt=""/>:"Личный кабинет"}
+                            </Media>
+                        </button></a>
                     </div>
 
                 </div>

@@ -10,7 +10,7 @@ const Footer: FC = () => {
                 <div className="footer__social">
                     <div className="social">
                         <div className="social__item">
-                            <a href="">
+                            <a href="https://vk.com/">
                                 <img src="/images/social/1.svg" alt=""/>
                             </a>
                         </div>
@@ -20,7 +20,7 @@ const Footer: FC = () => {
                             </a>
                         </div>
                         <div className="social__item">
-                            <a href="">
+                            <a href="https://web.telegram.org/">
                                 <img src="/images/social/3.svg" alt=""/>
                             </a>
                         </div>
