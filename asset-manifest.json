@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ilink/static/css/main.5a1f5277.css",
+    "main.js": "/ilink/static/js/main.ac827bc7.js",
+    "static/media/Gilroy-Medium.ttf": "/ilink/static/media/Gilroy-Medium.1c23f810e531d0702f76.ttf",
+    "static/media/Gilroy-Regular.ttf": "/ilink/static/media/Gilroy-Regular.fa652e766b6a85a1f9cb.ttf",
+    "static/media/Gilroy-Bold.ttf": "/ilink/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
+    "static/media/FactorA-Regular.ttf": "/ilink/static/media/FactorA-Regular.144a180e589c9ab6e7bf.ttf",
+    "static/media/FactorA-Bold.ttf": "/ilink/static/media/FactorA-Bold.f8635ab95fce0b26ef5d.ttf",
+    "static/media/Gilroy-Medium.woff": "/ilink/static/media/Gilroy-Medium.5329bc502cdc219ad294.woff",
+    "static/media/Gilroy-Bold.woff": "/ilink/static/media/Gilroy-Bold.0607a1bc636f63251ed8.woff",
+    "static/media/Gilroy-Regular.woff": "/ilink/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
+    "static/media/Gilroy-Medium.woff2": "/ilink/static/media/Gilroy-Medium.acd4e613de34a826c191.woff2",
+    "static/media/Gilroy-Bold.woff2": "/ilink/static/media/Gilroy-Bold.ef7c40ff1efeaaa4c7c6.woff2",
+    "static/media/Gilroy-Regular.woff2": "/ilink/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
+    "static/media/FactorA-Regular.woff": "/ilink/static/media/FactorA-Regular.0b48626533dbf8291095.woff",
+    "static/media/FactorA-Bold.woff": "/ilink/static/media/FactorA-Bold.3603310c3c972c5ada0f.woff",
+    "static/media/FactorA-Regular.woff2": "/ilink/static/media/FactorA-Regular.f5b2e09c6ad335835b9c.woff2",
+    "static/media/FactorA-Bold.woff2": "/ilink/static/media/FactorA-Bold.321597e7e8401629d48d.woff2",
+    "index.html": "/ilink/index.html",
+    "static/media/FactorAMedium-Regular.ttf": "/ilink/static/media/FactorAMedium-Regular.31d6cfe0d16ae931b73c.ttf",
+    "static/media/FactorAMedium-Regular.woff": "/ilink/static/media/FactorAMedium-Regular.31d6cfe0d16ae931b73c.woff",
+    "static/media/FactorAMedium-Regular.woff2": "/ilink/static/media/FactorAMedium-Regular.31d6cfe0d16ae931b73c.woff2",
+    "main.5a1f5277.css.map": "/ilink/static/css/main.5a1f5277.css.map",
+    "main.ac827bc7.js.map": "/ilink/static/js/main.ac827bc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a1f5277.css",
+    "static/js/main.ac827bc7.js"
+  ]
+}
