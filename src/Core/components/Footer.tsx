@@ -1,4 +1,7 @@
 import {FC} from "react";
+import img1 from "../images/social/1.svg"
+import img2 from "../images/social/2.svg"
+import img3 from "../images/social/3.svg"
 
 const Footer: FC = () => {
     return (
@@ -11,17 +14,17 @@ const Footer: FC = () => {
                     <div className="social">
                         <div className="social__item">
                             <a href="https://vk.com/">
-                                <img src="/images/social/1.svg" alt=""/>
+                                <img src={img1} alt=""/>
                             </a>
                         </div>
                         <div className="social__item">
                             <a href="">
-                                <img src="/images/social/2.svg" alt=""/>
+                                <img src={img2} alt=""/>
                             </a>
                         </div>
                         <div className="social__item">
                             <a href="https://web.telegram.org/">
-                                <img src="/images/social/3.svg" alt=""/>
+                                <img src={img3} alt=""/>
                             </a>
                         </div>
                     </div>
