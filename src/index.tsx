@@ -4,6 +4,7 @@ import './index.scss';
 import Core from './Core/Core';
 import {store} from "./Core/redux/store";
 import {Provider} from "react-redux";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
     <Provider store={store}>
@@ -12,3 +13,4 @@ ReactDOM.render(
   ,  document.getElementById('root')
 );
 
+reportWebVitals();

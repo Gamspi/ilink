@@ -1,5 +1,8 @@
 import {FormEvent, RefObject, useEffect, useRef, useState} from "react";
 import {useAction} from "../hooks/usaAction";
+import gcross from "../images/gcross.svg"
+import deleteIMG from '../images/Delete.svg'
+import simvol from "../images/simvol.svg"
 
 const Newreview = () => {
     const [file, setFile] = useState<File | null>()
@@ -41,7 +44,7 @@ const Newreview = () => {
             <div className="newReview__body">
                 <div className="newReview__title">
                     <h2>Отзыв</h2>
-                    <button onClick={() => setIsPageNewReview(false)}><img src="/images/gcross.svg" alt=""/></button>
+                    <button onClick={() => setIsPageNewReview(false)}><img src={gcross} alt=""/></button>
                 </div>
                 <form className='newReview__inputs' onSubmit={handlerSubmit}>
                     <h3>Как вас зовут?</h3>
@@ -73,7 +76,7 @@ const Newreview = () => {
                        <img src={preview} alt=""/>
                         <div className="newReview__input-prev-info">
                            <p>{file?.name}</p>
-                            <button type='button' onClick={()=>setFile(null)}><img src="/images/Delete.svg" alt=""/></button>
+                            <button type='button' onClick={()=>setFile(null)}><img src={deleteIMG} alt=""/></button>
                         </div>
                     </div>}
                     <h3>Все ли вам понравилось?</h3>
@@ -92,7 +95,7 @@ const Newreview = () => {
                     <div className='newReview__footer'>
                         <button type='submit'>Отправить отзыв</button>
 
-                        <p><img src="/images/simvol.svg" alt=""/> Все отзывы проходят модерацию в течение 2 часов</p>
+                        <p><img src={simvol} alt=""/> Все отзывы проходят модерацию в течение 2 часов</p>
                     </div>
                 </form>
             </div>

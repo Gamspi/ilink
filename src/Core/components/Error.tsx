@@ -1,13 +1,15 @@
-import {FC} from "react";
+import React,{FC} from "react";
+import fail from "../images/massages/error/fail.svg"
+import red from "../images/massages/error/Red bubbles.png"
 import {useAction} from "../hooks/usaAction";
-
+import cross from '../images/cross.svg'
 const Error: FC = () => {
     const {setIsError} = useAction()
 
     return (
         <div className="error">
-            <img className='error__image' src="/images/massages/error/fail.svg" alt=""/>
-            <img className='error__bg-image' src="/images/massages/error/Red bubbles.png" alt=""/>
+            <img className='error__image' src={fail} alt=""/>
+            <img className='error__bg-image' src={red} alt=""/>
             <div className="error__container">
                 <div className="error__content">
 
@@ -22,7 +24,7 @@ const Error: FC = () => {
 
                 </div>
                 <button onClick={() => setIsError(false)}>
-                    <img src="/images/cross.svg" alt=""/>
+                    <img src={cross} alt=""/>
                 </button>
 
             </div>

@@ -1,12 +1,15 @@
 import {FC, useContext} from "react";
 import {newContext} from "../Core";
+import user from "../images/header/user.jpg"
+import man from"../images/maine/man.svg"
+import pet from"../images/maine/pet.svg"
 
 const Userinfo: FC = () => {
     const {userName, birthday} = useContext(newContext)
     return (
         <div className='user-info'>
             <div className="user-info__image">
-                <img src="/images/header/user.jpg" alt=""/>
+                <img src={user} alt=""/>
 
             </div>
             <div className="user-info__body">
@@ -24,7 +27,7 @@ const Userinfo: FC = () => {
                     </div>
                     <div className="user-info__gender">
                         <span><b>Пол: </b> Мужской</span>
-                        <img src="/images/maine/man.svg" alt=""/>
+                        <img src={man} alt=""/>
                     </div>
                     <div className="user-info__age">
                         <span><b>Возраст: </b> 29</span>
@@ -35,7 +38,7 @@ const Userinfo: FC = () => {
                         мастером своего дела. Так же есть небольшое хобби. Рисую в технике азрографии! </p>
                 </div>
                 <div className="user-info__pet">
-                    <img src="/images/maine/pet.svg" alt=""/>
+                    <img src={pet} alt=""/>
                     <p><b>Домашнее животное: </b>нет</p>
                 </div>
             </div>

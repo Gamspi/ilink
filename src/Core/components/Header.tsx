@@ -2,6 +2,8 @@ import {FC, useContext} from "react";
 import Usercard from "./Usercard";
 import {newContext} from "../Core";
 import Media from "react-media";
+import logo from '../images/header/logo.svg'
+import profile from '../images/Profile.svg'
 
 const Header: FC = () => {
     const {userName} = useContext(newContext)
@@ -12,14 +14,14 @@ const Header: FC = () => {
                 <div className="header__row">
                     <Usercard userName={userName}/>
                     <div className="Header__logo">
-                        <img src="/images/header/logo.svg" alt=""/>
+                        <img src={logo} alt=""/>
                     </div>
                     <div className="Header__btn">
                         <a href="/"><button style={{
 
                         }}>
                             <Media queries={{small:"(max-width: 790px)" }} >
-                                {matches => matches.small?< img src = "/images/Profile.svg" alt=""/>:"Личный кабинет"}
+                                {matches => matches.small?< img src = {profile} alt=""/>:"Личный кабинет"}
                             </Media>
                         </button></a>
                     </div>
